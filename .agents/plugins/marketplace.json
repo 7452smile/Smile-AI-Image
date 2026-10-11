@@ -1,0 +1,20 @@
+{
+  "name": "smile-ai",
+  "interface": {
+    "displayName": "Smile AI"
+  },
+  "plugins": [
+    {
+      "name": "smile-ai-image",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

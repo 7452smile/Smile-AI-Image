@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "smile_ai_image": {
+      "command": "bin/smile-mcp",
+      "args": []
+    }
+  }
+}

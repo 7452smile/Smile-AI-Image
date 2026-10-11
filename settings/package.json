@@ -1,0 +1,26 @@
+{
+  "name": "smile-ai-image-settings",
+  "private": true,
+  "version": "1.0.9",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.8.0",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.11.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  },
+  "license": "MIT",
+  "homepage": "https://api.smile-ai-studio.com/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7452smile/Smile-AI-Image.git"
+  }
+}

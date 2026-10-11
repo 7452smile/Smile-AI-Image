@@ -1,0 +1,7 @@
+interface:
+  display_name: "Smile AI Image"
+  short_description: "MIT 开源，通过 Smile AI 在 Codex 中生成和编辑图片"
+  default_prompt: "Use $smile-ai-image to generate or edit an image from my request."
+  icon_small: "./assets/icon.png"
+  icon_large: "./assets/logo.png"
+  brand_color: "#C9FB24"

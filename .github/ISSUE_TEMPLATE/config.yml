@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 私密安全报告
+    url: https://github.com/7452smile/Smile-AI-Image/security/advisories/new
+    about: 安全漏洞与隐私问题请勿公开提交。
+  - name: Smile AI 主站
+    url: https://api.smile-ai-studio.com/
+    about: 账户、API Key、额度与模型服务。

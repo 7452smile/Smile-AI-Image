@@ -1,0 +1,24 @@
+[workspace]
+members = ["crates/smile-core", "crates/smile-mcp", "settings/src-tauri"]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.9"
+edition = "2024"
+license = "MIT"
+repository = "https://github.com/7452smile/Smile-AI-Image"
+homepage = "https://api.smile-ai-studio.com/"
+
+[workspace.dependencies]
+anyhow = "1.0"
+base64 = "0.22"
+directories = "6.0"
+futures-util = "0.3"
+keyring = { version = "3.6", features = ["apple-native", "windows-native", "sync-secret-service"] }
+mime_guess = "2.0"
+reqwest = { version = "0.12", default-features = false, features = ["json", "multipart", "rustls-tls"] }
+semver = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.47", features = ["macros", "rt-multi-thread", "time", "net", "io-util", "sync", "fs"] }
+toml_edit = "0.23"

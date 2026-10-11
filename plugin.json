@@ -1,0 +1,49 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "smile-ai-image",
+  "version": "1.0.9",
+  "description": "MIT-licensed open-source image generation and editing for Codex, powered by Smile AI.",
+  "author": {
+    "name": "Smile AI Studio",
+    "url": "https://api.smile-ai-studio.com/"
+  },
+  "homepage": "https://api.smile-ai-studio.com/",
+  "keywords": [
+    "image",
+    "generation",
+    "editing",
+    "nano-banana",
+    "nano-banana-2.1",
+    "gpt-image",
+    "gpt-image-2",
+    "gpt-image-2-all",
+    "gpt-image-2.5-flare",
+    "gpt-image-2.5-sunburst"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Smile AI Image",
+        "shortDescription": "MIT 开源，在 Codex 中生成和编辑图片。",
+        "longDescription": "通过 Smile AI 中转站在 Codex 对话中调用 Nano Banana 2、Nano Banana 2.1、Nano Banana Pro、GPT Image 2、GPT Image 2 All、GPT Image 2.5 Flare 和 GPT Image 2.5 Sunburst，支持图片生成、编辑、本地保存与对话内预览。本插件基于 MIT 许可证开源。GitHub：https://github.com/7452smile/Smile-AI-Image；Smile AI 主站：https://api.smile-ai-studio.com/",
+        "developerName": "Smile AI Studio",
+        "category": "Productivity",
+        "capabilities": [
+          "Interactive",
+          "Write"
+        ],
+        "websiteURL": "https://github.com/7452smile/Smile-AI-Image",
+        "defaultPrompt": [
+          "用 Smile AI Image 根据我的描述生成图片。",
+          "用 Smile AI Image 编辑我上传的图片。",
+          "打开 Smile AI Image 设置。"
+        ],
+        "brandColor": "#C9FB24",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  },
+  "repository": "https://github.com/7452smile/Smile-AI-Image",
+  "license": "MIT"
+}
